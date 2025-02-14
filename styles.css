@@ -1,7 +1,24 @@
-#welcome-box {
+.welcome-element, #start-button {
+    font-family: Silkscreen, Arial;
+    font-size: 2vw;
+}
+
+#welcome-box-container {
     border-color: black;
     border-style: solid;
     display:flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 50vw;
+}
+
+.welcome-element {
+    margin-bottom: 1vw;
+    border-color: black;
+    border-style: solid;
+}
+
+#start-button {
+    padding: 5px 10px;
 }
