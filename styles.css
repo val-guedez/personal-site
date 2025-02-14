@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./cropped-world-map.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .welcome-element, #start-button {
     font-family: Silkscreen, Arial;
     font-size: 2vw;
@@ -6,7 +17,7 @@
 #welcome-box-container {
     border-color: black;
     border-style: solid;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
