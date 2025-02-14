@@ -32,3 +32,13 @@ hr {
     margin-top: 15px;
 }
 
+#info-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20.5vw;
+}
+
+.grid-img {
+    height: 26vw;
+}
+
