@@ -35,10 +35,19 @@ hr {
 #info-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 20.5vw;
+    margin-left: 22vw;
 }
 
 .grid-img {
-    height: 26vw;
+    height: 25vw;
+    margin-top: 5px;
+}
+
+#home-button {
+    font-family: Silkscreen, Arial;
+}
+
+#home-button:hover {
+    cursor: pointer;
 }
 
