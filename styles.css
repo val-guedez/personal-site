@@ -22,14 +22,36 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 50vw;
+    background-color: rgb(197, 94, 75);
+    padding-top: 5px;
 }
 
 .welcome-element {
     margin-bottom: 1vw;
     border-color: black;
     border-style: solid;
+    background-color: rgb(255, 211, 167);
+    padding: 3px 6px;
+}
+
+#start-button-container {
+    padding: 0;
 }
 
 #start-button {
     padding: 5px 10px;
+    background-color: pink;
+    border-color: rgb(254, 159, 173);
+    transition: color 0.25s, background-color 0.25s;
 }
+
+#start-button:hover {
+    cursor: pointer;
+    color: pink;
+    background-color: black;
+}
+
+#start-button:active {
+    opacity: 0.85;
+}
+
