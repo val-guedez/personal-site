@@ -1,6 +1,7 @@
 body {
     margin: 0;
     height: 200vh;
+    background-color: rgb(48, 131, 255);
 }
 
 hr {
@@ -28,7 +29,7 @@ hr {
 }
 
 #profile-pic {
-    height: 40vh;
+    height: 38vh;
     margin-top: 15px;
 }
 
