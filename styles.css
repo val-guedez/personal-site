@@ -39,7 +39,14 @@ body {
     position: absolute;
     height: 6vw;
     bottom: 0.5vw;
-    left: 6vw;
+}
+
+#arrow-left {
+    left: 6.5vw;
+}
+
+#arrow-right {
+    right: 6.5vw;
 }
 
 #start-button-container {
