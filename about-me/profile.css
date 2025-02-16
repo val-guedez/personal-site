@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 200vh;
-    background-color: rgb(48, 131, 255);
+    background-color: rgb(85, 153, 255);
 }
 
 hr {
@@ -17,7 +17,7 @@ hr {
     background-color: lightpink;
     color: white;
     height: 100%;
-    border-color: black;
+    border-color: white;
     border-style: solid;
 }
 
@@ -46,9 +46,25 @@ hr {
 
 #home-button {
     font-family: Silkscreen, Arial;
+    color: white;
+    background-color: rgb(255, 104, 129);
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 1.5vw;
+    margin-top: 15px;
+    padding: 3px;
+    transition: border-color 0.4s, color 0.4s, background-color 0.4s;
 }
 
 #home-button:hover {
     cursor: pointer;
+    background-color: white;
+    color:  rgb(255, 104, 129);
+    border-color:  rgb(255, 104, 129);
+}
+
+#home-button:active {
+    opacity: 0.8;
 }
 
