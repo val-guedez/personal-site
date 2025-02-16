@@ -39,9 +39,55 @@ hr {
     margin-left: 22vw;
 }
 
+.grid-element {
+    position: relative;
+}
+
+
 .grid-img {
     height: 25vw;
     margin-top: 5px;
+}
+
+.category-text {
+    position: absolute;
+    font-family: Silkscreen, Arial;
+    font-size: 1.5vw;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(255, 226, 173);
+    padding: 3px 4px;
+    cursor: pointer;
+}
+
+#interest {
+    top: 45%;
+    left: 35%;
+}
+
+#hobbies {
+    top: 35%;
+    left: 30%;
+}
+
+#music {
+    top: 35%;
+    left: 15%;
+}
+
+#ew {
+    top: 50%;
+    left: 20%;
+}
+
+#shinji {
+    top: 35%;
+    left: 30%;
+}
+
+#random {
+    top: 33%;
+    left: 35%;
 }
 
 #home-button {
