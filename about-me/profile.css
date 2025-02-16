@@ -14,11 +14,12 @@ hr {
     flex-direction: column;
     position: fixed;
     left: 0px;
-    background-color: rgb(160, 231, 255);
+    background-color: rgb(137, 226, 255);
     color: white;
     height: 100%;
     border-color: white;
     border-style: solid;
+    z-index: 10;
 }
 
 .sidebar-element {
@@ -31,6 +32,12 @@ hr {
 #profile-pic {
     height: 38vh;
     margin-top: 15px;
+}
+
+#spamton-roast {
+    width: 12vw;
+    margin-top: 10px;
+    margin-left: 4vw;
 }
 
 #info-grid-container {
