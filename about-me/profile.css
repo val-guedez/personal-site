@@ -34,6 +34,31 @@ hr {
     margin-top: 15px;
 }
 
+#home-button {
+    font-family: Silkscreen, Arial;
+    color: white;
+    background-color: rgb(81, 211, 254);
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 1.5vw;
+    margin-top: 10px;
+    padding: 3px;
+    transition: border-color 0.4s, color 0.4s, background-color 0.4s;
+}
+
+#home-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color:  rgb(81, 211, 254);
+    border-color:  rgb(81, 211, 254);
+}
+
+#home-button:active {
+    opacity: 0.8;
+}
+
+
 #spamton-roast {
     width: 12vw;
     margin-top: 10px;
@@ -98,28 +123,3 @@ hr {
     top: 33%;
     left: 35%;
 }
-
-#home-button {
-    font-family: Silkscreen, Arial;
-    color: white;
-    background-color: rgb(81, 211, 254);
-    border-color: white;
-    border-style: solid;
-    border-width: 3px;
-    font-size: 1.5vw;
-    margin-top: 15px;
-    padding: 3px;
-    transition: border-color 0.4s, color 0.4s, background-color 0.4s;
-}
-
-#home-button:hover {
-    cursor: pointer;
-    background-color: white;
-    color:  rgb(81, 211, 254);
-    border-color:  rgb(81, 211, 254);
-}
-
-#home-button:active {
-    opacity: 0.8;
-}
-
