@@ -1,0 +1,59 @@
+body, #page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: rgb(85, 153, 255);
+    margin: 0;
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div, h1 {
+    font-family: Silkscreen, Arial;
+}
+
+#page-container {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(137, 226, 255);
+    padding: 10px 15px;
+    color: white;
+}
+
+.title {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.interest-container {
+    display: flex;
+    border-color: red;
+    border-style: solid;
+    background-color: grey;
+}
+
+.interest-side-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.interest-title {
+    font-size: 1.5vw;
+    border-color: red;
+    border-style: solid;
+}
+
+.interest-img {
+    width: 10vw;
+    object-fit: cover;
+}
+
+.interest-desc {
+    font-size: 1.5vw;
+    border-color: red;
+    border-style: solid;
+}
