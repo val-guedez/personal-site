@@ -78,7 +78,7 @@ div, h1 {
     margin-right: 10px;
 }
 
-#home-button {
+.back-button {
     font-family: Silkscreen, Arial;
     color: white;
     background-color: rgb(81, 211, 254);
@@ -91,13 +91,12 @@ div, h1 {
     transition: border-color 0.4s, color 0.4s, background-color 0.4s;
 }
 
-#home-button:hover {
+.back-button:hover {
     cursor: pointer;
     background-color: white;
     color:  rgb(81, 211, 254);
     border-color:  rgb(81, 211, 254);
 }
-
-#home-button:active {
+.back-button:active {
     opacity: 0.8;
 }
