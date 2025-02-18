@@ -24,6 +24,7 @@ div, h1, ul, li {
     background-color: rgb(137, 226, 255);
     padding: 10px 15px;
     color: white;
+    position: relative;
 }
 
 .title {
@@ -79,6 +80,15 @@ div, h1, ul, li {
     border-left-color:  rgb(31, 139, 255);
     padding-left: 10px; 
     margin-right: 10px;
+}
+
+.home-buttons {
+    position: absolute;
+    left: -14vw;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 .back-button {
