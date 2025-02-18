@@ -14,7 +14,7 @@ body {
     background-size: cover;
 }
 
-div, h1 {
+div, h1, ul, li {
     font-family: Silkscreen, Arial;
 }
 
@@ -102,4 +102,9 @@ div, h1 {
 }
 .back-button:active {
     opacity: 0.8;
+}
+
+.facts {
+    font-size: 1.4vw;
+    list-style-type: square;
 }
