@@ -9,6 +9,9 @@ body {
     height: 200vh;
     justify-content: center;
     align-items: center;
+    background-image: url(./ocean.gif);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 div, h1 {

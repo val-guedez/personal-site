@@ -2,6 +2,9 @@ body {
     margin: 0;
     height: 200vh;
     background-color: rgb(85, 153, 255);
+    background-image: url(./ocean.gif);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 hr {
