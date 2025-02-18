@@ -91,6 +91,12 @@ div, h1, ul, li {
     align-items: end;
 }
 
+.prev-next-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .back-button {
     font-family: Silkscreen, Arial;
     color: white;
