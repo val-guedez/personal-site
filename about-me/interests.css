@@ -9,7 +9,7 @@ body {
     height: 200vh;
     justify-content: center;
     align-items: center;
-    background-image: url(./ocean.gif);
+    background-image: url(./images/ocean.gif);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -107,4 +107,8 @@ div, h1, ul, li {
 .facts {
     font-size: 1.4vw;
     list-style-type: square;
+}
+
+#bsd-pinterest {
+    object-position: left;
 }
