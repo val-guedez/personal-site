@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(./images/cropped-world-map.JPG);
+    background-image: url(./about-me/images/ocean.gif);
     background-attachment: fixed;
     background-size: cover;
 }

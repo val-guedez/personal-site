@@ -94,7 +94,7 @@ ul, li {
 
 .home-buttons {
     position: absolute;
-    left: -14vw;
+    left: -14.1vw;
     top: 0px;
     display: flex;
     flex-direction: column;
@@ -157,7 +157,24 @@ ul, li {
     border-left-color:  rgb(31, 139, 255);
     padding-left: 10px;
     background-color: rgb(104, 171, 225);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+#info-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 0px;
+}
+
+.grid-element {
+    height: 14.8vw;
+    width: 14.8vw;
+}
+
+.grid-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
