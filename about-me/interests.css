@@ -137,7 +137,7 @@ ul, li {
     border-left-color:  rgb(31, 139, 255);
     background-color: rgb(104, 171, 225);
     margin-bottom: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-top: 10px;
 }
 
@@ -177,4 +177,8 @@ ul, li {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.erm {
+    margin-bottom: 5px;
 }
