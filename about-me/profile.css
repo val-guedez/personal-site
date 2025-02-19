@@ -85,16 +85,26 @@ hr {
     cursor: default;
 }
 
-.category-text {
+.category-button {
     position: absolute;
     font-family: Silkscreen, Arial;
     font-size: 1.5vw;
+    border-width: 3px;
     border-style: solid;
     border-color: black;
     color: black;
     background-color: rgb(255, 226, 173);
     padding: 3px 4px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.category-button:hover {
+    box-shadow: 5px 5px 25px 4px rgba(0, 0, 0, 0.653);
+}
+
+.category-button:active {
+    box-shadow: 5px 5px 25px 7px rgba(0, 0, 0, 0.653);
 }
 
 #interest {
