@@ -18,6 +18,10 @@ div, h1, ul, li {
     font-family: Silkscreen, Arial;
 }
 
+ul, li {
+    list-style-type: square;
+}
+
 #page-container {
     height: 100%;
     width: 60%;
@@ -31,6 +35,11 @@ div, h1, ul, li {
     font-size: 2.5vw;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+
+.music-bullet {
+    margin-left: 20px;
 }
 
 .interest-container {
@@ -123,7 +132,6 @@ div, h1, ul, li {
 
 .facts {
     font-size: 1.5vw;
-    list-style-type: square;
     border-left-width: 7px;
     border-left-style: solid;
     border-left-color:  rgb(31, 139, 255);
