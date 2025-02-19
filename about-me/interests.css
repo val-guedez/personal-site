@@ -6,7 +6,7 @@ body, #page-container {
 body {
     background-color: rgb(85, 153, 255);
     margin: 0;
-    height: 200vh;
+    height: 150vh;
     justify-content: center;
     align-items: center;
     background-image: url(./images/ocean.gif);
@@ -37,7 +37,7 @@ div, h1, ul, li {
     display: flex;
     border-color: rgb(31, 139, 255);
     border-style: solid;
-    background-color: rgb(119, 176, 223);
+    background-color: rgb(104, 171, 225);
 }
 
 #anime, #video-games {
@@ -76,6 +76,7 @@ div, h1, ul, li {
 
 .interest-desc {
     font-size: 1.4vw;
+    border-left-width: 5px;
     border-left-style: solid;
     border-left-color:  rgb(31, 139, 255);
     padding-left: 10px; 
@@ -121,10 +122,34 @@ div, h1, ul, li {
 }
 
 .facts {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     list-style-type: square;
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color:  rgb(31, 139, 255);
+    background-color: rgb(104, 171, 225);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
+
 
 #bsd-pinterest {
     object-position: left;
+}
+
+#paul {
+    object-position: top;
+}
+
+.intro {
+    font-size: 1.4vw;
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color:  rgb(31, 139, 255);
+    padding-left: 10px;
+    background-color: rgb(104, 171, 225);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
